@@ -88,7 +88,7 @@ public class onlineshoppingtest {
 	  WebElement pc=driver.findElement(By.xpath("//input[@value='Female']"));
 	  pc.click();
 	  driver.findElement(By.id("emailAddress")).sendKeys("ruturajesh@gmail.com");
-	  driver.findElement(By.id("mobileNumber")).sendKeys("9900092471");
+	  driver.findElement(By.id("mobileNumber")).sendKeys("1234567890");
 	  driver.findElement(By.xpath("//input[@name='dob']")).sendKeys("22/09/2019");
 	  driver.findElement(By.id("address")).sendKeys("bangalore");
 	  
